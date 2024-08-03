@@ -8,10 +8,13 @@
 </head>
 <body>
     <div class="container">
-        <h3 class="text-center">Thank you for your donation <br> HBL BANK ACCOUNT NUMBER : -------------------- <br> ACOUNT NAME : ----------------</h3>
+        <h3 class="text-center"> <header>
+            <b>Thank you for your donation</b> <br> HBL BANK ACCOUNT NUMBER : -------------------- <br> ACOUNT NAME : ----------------
+            
+        </header></h3>
         <form id="donationForm" enctype="multipart/form-data">
             <div class="form-group">
-                <label for="amount">Amount (€)</label>
+                <label for="amount">Amount </label>
                 <input type="number" class="form-control" id="amount" name="amount" required>
             </div>
             <div class="form-group">
@@ -31,13 +34,10 @@
                 <input type="tel" class="form-control" id="phone" name="phone">
             </div>
             <div class="form-group">
-                <label for="address">Address</label>
+                <label for="address">country</label>
                 <input type="text" class="form-control" id="address" name="address">
             </div>
-            <div class="form-group">
-                <label for="note">Additional Note</label>
-                <textarea class="form-control" id="note" name="note"></textarea>
-            </div>
+           
             <div class="form-group">
                 <label for="attachment">Attach PNG File</label>
                 <input type="file" class="form-control" id="attachment" name="attachment" accept="image/png" required>
